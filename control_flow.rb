@@ -56,8 +56,9 @@ def calculator(operation, num1, num2)
  elsif operation == "/"
   return num1 / num2
 
- elsif operation == "" 
-  return "nil"
+ else
+  puts "Invalid operation!"
+  
 
  
 end
